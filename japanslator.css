@@ -1,0 +1,136 @@
+.jpnSlator {
+  visibility: hidden;
+  opacity: .6;
+  transition: opacity 1s;
+  min-width: 150px;
+  position: fixed;
+  bottom: 0;
+  right:0;
+  border-radius: 5px;
+  padding: 6px;
+  background-color: rgb(41, 41, 41);
+  box-shadow: 
+  0 1px 2px #fff, 
+  0 -1px 1px #666,
+  inset 0 -1px 1px rgba(0,0,0,0.5), 
+  inset 0 1px 1px rgba(255,255,255,0.8); 
+
+}
+
+.toggle {
+  opacity: .6;
+  transition: opacity 1s;
+  min-width: 150px;
+  position: fixed;
+  bottom: 0;
+  right:0;
+  border-radius: 5px;
+  padding: 6px;
+  color: rgb(41, 41, 41);
+  background-color: white;
+  box-shadow: 
+  0 1px 2px #fff, 
+  0 -1px 1px #666,
+  inset 0 -1px 1px rgba(0,0,0,0.5), 
+  inset 0 1px 1px rgba(255,255,255,0.8); 
+}
+
+.bright {
+  opacity: .9;
+}
+
+.magnify {
+  font-size: 50px;
+  transition: font-size .5s;
+}
+
+.jpnSlator:hover {
+  transition: opacity .5s;
+  opacity: .85;
+}
+
+
+#jpnOriginal {
+  background-color: white;
+  padding-top: 5px;
+  text-align: center;
+  font-size: smaller;
+  font-family: Georgia;
+  font-style: italic;
+  color:rgb(100, 100, 100)
+}
+
+#jpnText {
+    background-color: white;
+    font-family: Georgia;
+    color: black;
+    padding: 10px;
+    opacity: 1.0;
+    text-align: center;
+}
+
+.jpnBottom {
+  display: flex;
+  justify-content: space-between;
+  align-items:center;
+  font-family: Georgia;
+  font-size: 15px;
+  color: white;
+}
+
+.jpnBottom a {
+  color:white;
+}
+
+#refresh {
+  padding-right: 8px;
+  padding-top: 4px;
+  font-size: 10px;
+  text-align: center;
+}
+
+.darkmode  {
+  color:black
+}
+
+#jpnTranslate {
+  text-align: left;
+  justify-content: right;
+  padding-top: 5px;
+  padding-left:5px;
+  opacity: .9;
+}
+
+#jpnTranslate:hover{
+  text-shadow:5px 5px 10px rgb(0, 0, 0), 1px 1px 1px rgb(0, 0, 0);
+  transition: text-shadow opacity .2s;
+  opacity:1.0;
+}
+
+#jpnJisho {
+  text-align: right;
+  padding-top: 5px;
+  padding-right: 5px;
+  text-decoration: none;
+  opacity: .9;
+}
+
+#jpnJisho a {
+  text-decoration: none;
+  color:white;
+}
+
+#jpnJisho:hover{
+  text-shadow:5px 5px 10px rgb(0, 0, 0), 1px 1px 1px rgb(0, 0, 0);
+  transition: text-shadow opacity .2s;
+  text-decoration: none;
+
+  opacity:1.0;
+}
+
+#refresh:hover{
+  text-shadow:5px 5px 10px rgb(0, 0, 0), 1px 1px 1px rgb(0, 0, 0);
+  transition: text-shadow opacity .2s;
+  opacity:1.0;
+}
+

@@ -1,0 +1,42 @@
+{
+"manifest_version": 2,
+"name": "Japanslator",
+"version": "0.5",
+"description": "Quickly look up any Japanese word.",
+"icons": {    
+    "16": "images/Icon-16.png",    
+    "32": "images/Icon-32.png",    
+    "48": "images/Icon-48.png",    
+    "128":"images/Icon-128.png"   
+    },
+
+
+    
+
+"browser_action": {    
+    "default_icon": "images/Icon-128.png",
+    "default_popup": "popup.html"
+},
+
+"content_scripts": [
+    {
+        "matches": ["<all_urls>"],
+        "js": ["foreground.js"],
+        "html": ["japanslator.html"],
+        "css": ["japanslator.css"]
+    }
+],
+
+"web_accessible_resources": [
+    "japanslator.html",
+    "japanslator.css"
+
+ ],
+
+"permissions": [
+    "activeTab"
+]
+
+
+}
+
